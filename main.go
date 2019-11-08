@@ -21,7 +21,7 @@ func main() {
 
 	p, err := kafka.NewProducer(
 		&kafka.ConfigMap{"bootstrap.servers": broker,
-			"plugin.library.paths": "monitoring-interceptor"})
+			"plugin.library.paths": "monitoring-interceptor", "debug": "all"})
 	if err != nil {
 		panic(err)
 	}
