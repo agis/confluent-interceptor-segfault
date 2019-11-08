@@ -1,0 +1,564 @@
+16908543 1.2.0
+%7|1573210536.962|WAKEUPFD|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:app]: kafka-a.example.com:9092/bootstrap: Enabled low-latency ops queue wake-ups
+%7|1573210536.962|BROKER|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:app]: kafka-a.example.com:9092/bootstrap: Added new broker with NodeId -1
+%7|1573210536.962|CONNECT|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:app]: kafka-a.example.com:9092/bootstrap: Selected for cluster connection: bootstrap servers added (broker has 0 connection attempt(s))
+%7|1573210536.962|BRKMAIN|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Enter main broker thread
+%7|1573210536.962|BRKMAIN|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd::0/internal]: :0/internal: Enter main broker thread
+%7|1573210536.962|INIT|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:app]: librdkafka v1.2.0 (0x10200ff) confluent.monitoring.interceptor.rdkafka#producer-1 initialized (builtin.features gzip,snappy,ssl,sasl,regex,lz4,sasl_plain,sasl_scram,plugins,zstd,sasl_oauthbearer, GCC GXX PKGCONFIG INSTALL GNULD LDS C11THREADS LIBDL PLUGINS ZLIB SSL ZSTD HDRHISTOGRAM SNAPPY SOCKEM SASL_SCRAM SASL_OAUTHBEARER CRC32C_HW, debug 0xffff)
+%7|1573210536.962|CONNECT|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Received CONNECT op
+%7|1573210536.962|STATE|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Broker changed state INIT -> TRY_CONNECT
+%7|1573210536.962|BROADCAST|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: Broadcasting state change
+%7|1573210536.962|TOPIC|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:app]: New local topic: _confluent-monitoring
+%7|1573210536.963|TOPPARNEW|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:app]: NEW _confluent-monitoring [-1] 0x1b84b80 (at rd_kafka_topic_new0:393)
+%7|1573210536.963|CONNECT|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: broker in state TRY_CONNECT connecting
+%7|1573210536.963|STATE|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Broker changed state TRY_CONNECT -> CONNECT
+%7|1573210536.963|BROADCAST|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: Broadcasting state change
+%7|1573210536.963|CONNECT|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:app]: Not selecting any broker for cluster connection: still suppressed for 49ms: leader query
+%7|1573210536.963|CONNECT|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:app]: Not selecting any broker for cluster connection: still suppressed for 49ms: leader query
+%7|1573210536.963|METADATA|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:app]: Skipping metadata refresh of 1 topic(s): no usable brokers
+%7|1573210536.963|WAKEUPFD|rdkafka#producer-2| [thrd:app]: kafka-a.example.com:9092/bootstrap: Enabled low-latency ops queue wake-ups
+%7|1573210536.963|BROKER|rdkafka#producer-2| [thrd:app]: kafka-a.example.com:9092/bootstrap: Added new broker with NodeId -1
+%7|1573210536.963|BRKMAIN|rdkafka#producer-2| [thrd::0/internal]: :0/internal: Enter main broker thread
+%7|1573210536.963|CONNECT|rdkafka#producer-2| [thrd:app]: kafka-a.example.com:9092/bootstrap: Selected for cluster connection: bootstrap servers added (broker has 0 connection attempt(s))
+%7|1573210536.963|BRKMAIN|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Enter main broker thread
+%7|1573210536.963|CONNECT|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Received CONNECT op
+%7|1573210536.963|STATE|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Broker changed state INIT -> TRY_CONNECT
+%7|1573210536.963|BROADCAST|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: Broadcasting state change
+%7|1573210536.963|INIT|rdkafka#producer-2| [thrd:app]: librdkafka v1.2.0 (0x10200ff) rdkafka#producer-2 initialized (builtin.features gzip,snappy,ssl,sasl,regex,lz4,sasl_plain,sasl_scram,plugins,zstd,sasl_oauthbearer, GCC GXX PKGCONFIG INSTALL GNULD LDS C11THREADS LIBDL PLUGINS ZLIB SSL ZSTD HDRHISTOGRAM SNAPPY SOCKEM SASL_SCRAM SASL_OAUTHBEARER CRC32C_HW, debug 0xffff)
+%7|1573210536.963|CONNECT|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: broker in state TRY_CONNECT connecting
+%7|1573210536.963|STATE|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Broker changed state TRY_CONNECT -> CONNECT
+%7|1573210536.963|BROADCAST|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: Broadcasting state change
+%7|1573210536.964|CONNECT|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Connecting to ipv6#[2a03:e40:2a:400::34]:9092 (plaintext) with socket 11
+%7|1573210536.964|CONNECT|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Connecting to ipv4#10.42.9.34:9092 (plaintext) with socket 12
+%7|1573210536.964|CONNECT|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Connected to ipv4#10.42.9.34:9092
+%7|1573210536.964|CONNECTED|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Connected (#1)
+%7|1573210536.964|FEATURE|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Updated enabled protocol features +ApiVersion to ApiVersion
+%7|1573210536.964|STATE|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Broker changed state CONNECT -> APIVERSION_QUERY
+%7|1573210536.964|BROADCAST|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: Broadcasting state change
+%7|1573210536.964|SEND|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Sent ApiVersionRequest (v0, 25 bytes @ 0, CorrId 1)
+%7|1573210536.964|CONNECT|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Connected to ipv6#[2a03:e40:2a:400::34]:9092
+%7|1573210536.964|CONNECTED|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Connected (#1)
+%7|1573210536.964|FEATURE|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Updated enabled protocol features +ApiVersion to ApiVersion
+%7|1573210536.964|STATE|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Broker changed state CONNECT -> APIVERSION_QUERY
+%7|1573210536.964|BROADCAST|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: Broadcasting state change
+%7|1573210536.964|SEND|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Sent ApiVersionRequest (v0, 58 bytes @ 0, CorrId 1)
+%7|1573210536.965|RECV|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Received ApiVersionResponse (v0, 264 bytes, CorrId 1, rtt 0.62ms)
+%7|1573210536.965|RECV|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Received ApiVersionResponse (v0, 264 bytes, CorrId 1, rtt 0.84ms)
+%7|1573210536.965|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Broker API support:
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Broker API support:
+%7|1573210536.965|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey Produce (0) Versions 0..5
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey Produce (0) Versions 0..5
+%7|1573210536.965|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey Fetch (1) Versions 0..7
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey Fetch (1) Versions 0..7
+%7|1573210536.965|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey Offset (2) Versions 0..2
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey Offset (2) Versions 0..2
+%7|1573210536.965|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey Metadata (3) Versions 0..5
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey Metadata (3) Versions 0..5
+%7|1573210536.965|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey LeaderAndIsr (4) Versions 0..1
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey LeaderAndIsr (4) Versions 0..1
+%7|1573210536.965|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey StopReplica (5) Versions 0..0
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey StopReplica (5) Versions 0..0
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey UpdateMetadata (6) Versions 0..4
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey ControlledShutdown (7) Versions 0..1
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey OffsetCommit (8) Versions 0..3
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey OffsetFetch (9) Versions 0..3
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey GroupCoordinator (10) Versions 0..1
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey JoinGroup (11) Versions 0..2
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey Heartbeat (12) Versions 0..1
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey LeaveGroup (13) Versions 0..1
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey SyncGroup (14) Versions 0..1
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey DescribeGroups (15) Versions 0..1
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey ListGroups (16) Versions 0..1
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey SaslHandshake (17) Versions 0..1
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey ApiVersion (18) Versions 0..1
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey CreateTopics (19) Versions 0..2
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey DeleteTopics (20) Versions 0..1
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey DeleteRecords (21) Versions 0..0
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey InitProducerId (22) Versions 0..0
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey OffsetForLeaderEpoch (23) Versions 0..0
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey AddPartitionsToTxn (24) Versions 0..0
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey AddOffsetsToTxn (25) Versions 0..0
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey EndTxn (26) Versions 0..0
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey WriteTxnMarkers (27) Versions 0..0
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey TxnOffsetCommit (28) Versions 0..0
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey DescribeAcls (29) Versions 0..0
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey CreateAcls (30) Versions 0..0
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey DeleteAcls (31) Versions 0..0
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey DescribeConfigs (32) Versions 0..1
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey AlterConfigs (33) Versions 0..0
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey AlterReplicaLogDirs (34) Versions 0..0
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey DescribeLogDirs (35) Versions 0..0
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey SaslAuthenticate (36) Versions 0..0
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey CreatePartitions (37) Versions 0..0
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey CreateDelegationToken (38) Versions 0..0
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey RenewDelegationToken (39) Versions 0..0
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey ExpireDelegationToken (40) Versions 0..0
+%7|1573210536.965|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey DescribeDelegationToken (41) Versions 0..0
+%7|1573210536.966|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey DeleteGroups (42) Versions 0..0
+%7|1573210536.965|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey UpdateMetadata (6) Versions 0..4
+%7|1573210536.966|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature MsgVer1: Produce (2..2) supported by broker
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey ControlledShutdown (7) Versions 0..1
+%7|1573210536.966|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature MsgVer1: Fetch (2..2) supported by broker
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey OffsetCommit (8) Versions 0..3
+%7|1573210536.966|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Enabling feature MsgVer1
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey OffsetFetch (9) Versions 0..3
+%7|1573210536.966|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature MsgVer2: Produce (3..3) supported by broker
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey GroupCoordinator (10) Versions 0..1
+%7|1573210536.966|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature MsgVer2: Fetch (4..4) supported by broker
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey JoinGroup (11) Versions 0..2
+%7|1573210536.966|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Enabling feature MsgVer2
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey Heartbeat (12) Versions 0..1
+%7|1573210536.966|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature ApiVersion: ApiVersion (0..0) supported by broker
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey LeaveGroup (13) Versions 0..1
+%7|1573210536.966|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Enabling feature ApiVersion
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey SyncGroup (14) Versions 0..1
+%7|1573210536.966|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature BrokerGroupCoordinator: GroupCoordinator (0..0) supported by broker
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey DescribeGroups (15) Versions 0..1
+%7|1573210536.966|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Enabling feature BrokerGroupCoordinator
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey ListGroups (16) Versions 0..1
+%7|1573210536.966|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature BrokerBalancedConsumer: GroupCoordinator (0..0) supported by broker
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey SaslHandshake (17) Versions 0..1
+%7|1573210536.966|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature BrokerBalancedConsumer: OffsetCommit (1..2) supported by broker
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey ApiVersion (18) Versions 0..1
+%7|1573210536.966|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature BrokerBalancedConsumer: OffsetFetch (1..1) supported by broker
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey CreateTopics (19) Versions 0..2
+%7|1573210536.966|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature BrokerBalancedConsumer: JoinGroup (0..0) supported by broker
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey DeleteTopics (20) Versions 0..1
+%7|1573210536.966|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature BrokerBalancedConsumer: SyncGroup (0..0) supported by broker
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey DeleteRecords (21) Versions 0..0
+%7|1573210536.966|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature BrokerBalancedConsumer: Heartbeat (0..0) supported by broker
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey InitProducerId (22) Versions 0..0
+%7|1573210536.966|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature BrokerBalancedConsumer: LeaveGroup (0..0) supported by broker
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey OffsetForLeaderEpoch (23) Versions 0..0
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey AddPartitionsToTxn (24) Versions 0..0
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey AddOffsetsToTxn (25) Versions 0..0
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey EndTxn (26) Versions 0..0
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey WriteTxnMarkers (27) Versions 0..0
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey TxnOffsetCommit (28) Versions 0..0
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey DescribeAcls (29) Versions 0..0
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey CreateAcls (30) Versions 0..0
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey DeleteAcls (31) Versions 0..0
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey DescribeConfigs (32) Versions 0..1
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey AlterConfigs (33) Versions 0..0
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey AlterReplicaLogDirs (34) Versions 0..0
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey DescribeLogDirs (35) Versions 0..0
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey SaslAuthenticate (36) Versions 0..0
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey CreatePartitions (37) Versions 0..0
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey CreateDelegationToken (38) Versions 0..0
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey RenewDelegationToken (39) Versions 0..0
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey ExpireDelegationToken (40) Versions 0..0
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey DescribeDelegationToken (41) Versions 0..0
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:   ApiKey DeleteGroups (42) Versions 0..0
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature MsgVer1: Produce (2..2) supported by broker
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature MsgVer1: Fetch (2..2) supported by broker
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Enabling feature MsgVer1
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature MsgVer2: Produce (3..3) supported by broker
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature MsgVer2: Fetch (4..4) supported by broker
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Enabling feature MsgVer2
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature ApiVersion: ApiVersion (0..0) supported by broker
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Enabling feature ApiVersion
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature BrokerGroupCoordinator: GroupCoordinator (0..0) supported by broker
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Enabling feature BrokerGroupCoordinator
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature BrokerBalancedConsumer: GroupCoordinator (0..0) supported by broker
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature BrokerBalancedConsumer: OffsetCommit (1..2) supported by broker
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature BrokerBalancedConsumer: OffsetFetch (1..1) supported by broker
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature BrokerBalancedConsumer: JoinGroup (0..0) supported by broker
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature BrokerBalancedConsumer: SyncGroup (0..0) supported by broker
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature BrokerBalancedConsumer: Heartbeat (0..0) supported by broker
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature BrokerBalancedConsumer: LeaveGroup (0..0) supported by broker
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Enabling feature BrokerBalancedConsumer
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature ThrottleTime: Produce (1..2) supported by broker
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature ThrottleTime: Fetch (1..2) supported by broker
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Enabling feature ThrottleTime
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature Sasl: JoinGroup (0..0) supported by broker
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Enabling feature Sasl
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature SaslHandshake: SaslHandshake (0..0) supported by broker
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Enabling feature SaslHandshake
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature LZ4: GroupCoordinator (0..0) supported by broker
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Enabling feature LZ4
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature OffsetTime: Offset (1..1) supported by broker
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Enabling feature OffsetTime
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature IdempotentProducer: InitProducerId (0..0) supported by broker
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Enabling feature IdempotentProducer
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature ZSTD: Produce (7..7) NOT supported by broker
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature ZSTD: Fetch (10..10) NOT supported by broker
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Disabling feature ZSTD
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature UnitTest: SaslHandshake (1..1) supported by broker
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature UnitTest: SaslAuthenticate (0..0) supported by broker
+%7|1573210536.966|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Enabling feature UnitTest
+%7|1573210536.966|FEATURE|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Updated enabled protocol features to MsgVer1,ApiVersion,BrokerBalancedConsumer,ThrottleTime,Sasl,SaslHandshake,BrokerGroupCoordinator,LZ4,OffsetTime,MsgVer2,IdempotentProducer,UnitTest
+%7|1573210536.966|STATE|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Broker changed state APIVERSION_QUERY -> UP
+%7|1573210536.966|BROADCAST|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: Broadcasting state change
+%7|1573210536.966|METADATA|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: Hinted cache of 1/1 topic(s) being queried
+%7|1573210536.966|METADATA|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: Requesting metadata for 1/1 topics: connected
+%7|1573210536.966|METADATA|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Request metadata for 1 topic(s): connected
+%7|1573210536.966|SEND|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Sent MetadataRequest (v2, 81 bytes @ 0, CorrId 2)
+%7|1573210536.966|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Enabling feature BrokerBalancedConsumer
+%7|1573210536.966|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature ThrottleTime: Produce (1..2) supported by broker
+%7|1573210536.966|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature ThrottleTime: Fetch (1..2) supported by broker
+%7|1573210536.966|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Enabling feature ThrottleTime
+%7|1573210536.966|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature Sasl: JoinGroup (0..0) supported by broker
+%7|1573210536.966|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Enabling feature Sasl
+%7|1573210536.966|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature SaslHandshake: SaslHandshake (0..0) supported by broker
+%7|1573210536.966|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Enabling feature SaslHandshake
+%7|1573210536.966|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature LZ4: GroupCoordinator (0..0) supported by broker
+%7|1573210536.966|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Enabling feature LZ4
+%7|1573210536.966|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature OffsetTime: Offset (1..1) supported by broker
+%7|1573210536.966|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Enabling feature OffsetTime
+%7|1573210536.966|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature IdempotentProducer: InitProducerId (0..0) supported by broker
+%7|1573210536.966|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Enabling feature IdempotentProducer
+%7|1573210536.966|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature ZSTD: Produce (7..7) NOT supported by broker
+%7|1573210536.966|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature ZSTD: Fetch (10..10) NOT supported by broker
+%7|1573210536.966|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Disabling feature ZSTD
+%7|1573210536.966|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature UnitTest: SaslHandshake (1..1) supported by broker
+%7|1573210536.966|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap:  Feature UnitTest: SaslAuthenticate (0..0) supported by broker
+%7|1573210536.966|APIVERSION|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Enabling feature UnitTest
+%7|1573210536.966|FEATURE|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Updated enabled protocol features to MsgVer1,ApiVersion,BrokerBalancedConsumer,ThrottleTime,Sasl,SaslHandshake,BrokerGroupCoordinator,LZ4,OffsetTime,MsgVer2,IdempotentProducer,UnitTest
+%7|1573210536.966|STATE|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Broker changed state APIVERSION_QUERY -> UP
+%7|1573210536.966|BROADCAST|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: Broadcasting state change
+%7|1573210536.966|METADATA|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Request metadata for brokers only: connected
+%7|1573210536.967|SEND|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Sent MetadataRequest (v2, 25 bytes @ 0, CorrId 2)
+%7|1573210536.967|TOPIC|rdkafka#producer-2| [thrd:app]: New local topic: test-rb
+%7|1573210536.967|TOPPARNEW|rdkafka#producer-2| [thrd:app]: NEW test-rb [-1] 0x7f62d0001270 (at rd_kafka_topic_new0:393)
+%7|1573210536.967|METADATA|rdkafka#producer-2| [thrd:app]: Hinted cache of 1/1 topic(s) being queried
+%7|1573210536.967|METADATA|rdkafka#producer-2| [thrd:app]: Requesting metadata for 1/1 topics: leader query
+%7|1573210536.967|METADATA|rdkafka#producer-2| [thrd:app]: kafka-a.example.com:9092/bootstrap: Request metadata for 1 topic(s): leader query
+%7|1573210536.967|SEND|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Sent MetadataRequest (v2, 34 bytes @ 0, CorrId 3)
+%7|1573210536.967|RECV|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Received MetadataResponse (v2, 267 bytes, CorrId 2, rtt 0.88ms)
+%7|1573210536.967|RECV|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: Received MetadataResponse (v2, 135 bytes, CorrId 2, rtt 0.73ms)
+%7|1573210536.967|METADATA|rdkafka#producer-2| [thrd:main]: kafka-a.example.com:9092/bootstrap: ===== Received metadata: connected =====
+%7|1573210536.967|METADATA|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:main]: kafka-a.example.com:9092/bootstrap: ===== Received metadata (for 1 requested topics): connected =====
+%7|1573210536.967|METADATA|rdkafka#producer-2| [thrd:main]: kafka-a.example.com:9092/bootstrap: ClusterId: Ovazq1osT1iwSk_BSmAKZQ, ControllerId: 1
+%7|1573210536.967|METADATA|rdkafka#producer-2| [thrd:main]: kafka-a.example.com:9092/bootstrap: 3 brokers, 0 topics
+%7|1573210536.967|METADATA|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:main]: kafka-a.example.com:9092/bootstrap: ClusterId: Ovazq1osT1iwSk_BSmAKZQ, ControllerId: 1
+%7|1573210536.967|METADATA|rdkafka#producer-2| [thrd:main]: kafka-a.example.com:9092/bootstrap:   Broker #0/3: kafka-b.example.com:9092 NodeId 2
+%7|1573210536.967|METADATA|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:main]: kafka-a.example.com:9092/bootstrap: 3 brokers, 1 topics
+%7|1573210536.967|METADATA|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:main]: kafka-a.example.com:9092/bootstrap:   Broker #0/3: kafka-b.example.com:9092 NodeId 2
+%7|1573210536.967|WAKEUPFD|rdkafka#producer-2| [thrd:main]: kafka-b.example.com:9092/2: Enabled low-latency ops queue wake-ups
+%7|1573210536.967|WAKEUPFD|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:main]: kafka-b.example.com:9092/2: Enabled low-latency ops queue wake-ups
+%7|1573210536.967|BROKER|rdkafka#producer-2| [thrd:main]: kafka-b.example.com:9092/2: Added new broker with NodeId 2
+%7|1573210536.967|BROKER|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:main]: kafka-b.example.com:9092/2: Added new broker with NodeId 2
+%7|1573210536.967|METADATA|rdkafka#producer-2| [thrd:main]: kafka-a.example.com:9092/bootstrap:   Broker #1/3: kafka-a.example.com:9092 NodeId 1
+%7|1573210536.967|METADATA|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:main]: kafka-a.example.com:9092/bootstrap:   Broker #1/3: kafka-a.example.com:9092 NodeId 1
+%7|1573210536.967|METADATA|rdkafka#producer-2| [thrd:main]: kafka-a.example.com:9092/bootstrap:   Broker #2/3: kafka-c.example.com:9092 NodeId 3
+%7|1573210536.967|METADATA|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:main]: kafka-a.example.com:9092/bootstrap:   Broker #2/3: kafka-c.example.com:9092 NodeId 3
+%7|1573210536.967|BRKMAIN|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Enter main broker thread
+%7|1573210536.967|WAKEUPFD|rdkafka#producer-2| [thrd:main]: kafka-c.example.com:9092/3: Enabled low-latency ops queue wake-ups
+%7|1573210536.967|WAKEUPFD|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:main]: kafka-c.example.com:9092/3: Enabled low-latency ops queue wake-ups
+%7|1573210536.967|BRKMAIN|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Enter main broker thread
+%7|1573210536.967|BROKER|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:main]: kafka-c.example.com:9092/3: Added new broker with NodeId 3
+%7|1573210536.967|METADATA|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:main]: kafka-a.example.com:9092/bootstrap:   Topic #0/1: _confluent-monitoring with 3 partitions
+%7|1573210536.967|UPDATE|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: NodeId changed from -1 to 1
+%7|1573210536.967|BRKMAIN|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-c.example.com:9092/3]: kafka-c.example.com:9092/3: Enter main broker thread
+%7|1573210536.967|UPDATE|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/1: Name changed from kafka-a.example.com:9092/bootstrap to kafka-a.example.com:9092/1
+%7|1573210536.967|LEADER|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/1: Mapped 0 partition(s) to broker
+%7|1573210536.967|STATE|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/1: Broker changed state UP -> UPDATE
+%7|1573210536.967|STATE|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:main]: Topic _confluent-monitoring changed state unknown -> exists
+%7|1573210536.967|BROKER|rdkafka#producer-2| [thrd:main]: kafka-c.example.com:9092/3: Added new broker with NodeId 3
+%7|1573210536.967|BROADCAST|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: Broadcasting state change
+%7|1573210536.968|CLUSTERID|rdkafka#producer-2| [thrd:main]: kafka-a.example.com:9092/bootstrap: ClusterId update "" -> "Ovazq1osT1iwSk_BSmAKZQ"
+%7|1573210536.968|BROADCAST|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: Broadcasting state change
+%7|1573210536.968|STATE|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/1: Broker changed state UPDATE -> UP
+%7|1573210536.968|CONTROLLERID|rdkafka#producer-2| [thrd:main]: kafka-a.example.com:9092/bootstrap: ControllerId update -1 -> 1
+%7|1573210536.968|BROADCAST|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: Broadcasting state change
+%7|1573210536.968|BROADCAST|rdkafka#producer-2| [thrd:main]: Broadcasting state change
+%7|1573210536.968|BRKMAIN|rdkafka#producer-2| [thrd:kafka-c.example.com:9092/3]: kafka-c.example.com:9092/3: Enter main broker thread
+%7|1573210536.967|PARTCNT|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:main]: Topic _confluent-monitoring partition count changed from 0 to 3
+%7|1573210536.968|UPDATE|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/bootstrap: NodeId changed from -1 to 1
+%7|1573210536.968|UPDATE|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/1: Name changed from kafka-a.example.com:9092/bootstrap to kafka-a.example.com:9092/1
+%7|1573210536.968|TOPPARNEW|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:main]: NEW _confluent-monitoring [0] 0x7f62a8002dd0 (at rd_kafka_topic_partition_cnt_update:620)
+%7|1573210536.968|LEADER|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/1: Mapped 0 partition(s) to broker
+%7|1573210536.968|TOPPARNEW|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:main]: NEW _confluent-monitoring [1] 0x7f62a80032d0 (at rd_kafka_topic_partition_cnt_update:620)
+%7|1573210536.968|STATE|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/1: Broker changed state UP -> UPDATE
+%7|1573210536.968|BROADCAST|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: Broadcasting state change
+%7|1573210536.968|BROADCAST|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: Broadcasting state change
+%7|1573210536.968|TOPPARNEW|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:main]: NEW _confluent-monitoring [2] 0x7f62a80037d0 (at rd_kafka_topic_partition_cnt_update:620)
+%7|1573210536.968|STATE|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/1: Broker changed state UPDATE -> UP
+%7|1573210536.968|METADATA|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:main]:   Topic _confluent-monitoring partition 0 Leader 1
+%7|1573210536.968|BROADCAST|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: Broadcasting state change
+%7|1573210536.968|BRKDELGT|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:main]: _confluent-monitoring [0]: delegate to broker kafka-a.example.com:9092/1 (rktp 0x7f62a8002dd0, term 0, ref 2, remove 0)
+%7|1573210536.968|BRKDELGT|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:main]: _confluent-monitoring [0]: broker kafka-a.example.com:9092/1 is now leader for partition with 0 messages (0 bytes) queued
+%7|1573210536.968|BRKMIGR|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:main]: Migrating topic _confluent-monitoring [0] 0x7f62a8002dd0 from (none) to kafka-a.example.com:9092/1 (sending PARTITION_JOIN to kafka-a.example.com:9092/1)
+%7|1573210536.968|METADATA|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:main]:   Topic _confluent-monitoring partition 1 Leader 2
+%7|1573210536.968|BRKDELGT|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:main]: _confluent-monitoring [1]: delegate to broker kafka-b.example.com:9092/2 (rktp 0x7f62a80032d0, term 0, ref 2, remove 0)
+%7|1573210536.968|BRKDELGT|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:main]: _confluent-monitoring [1]: broker kafka-b.example.com:9092/2 is now leader for partition with 0 messages (0 bytes) queued
+%7|1573210536.968|TOPBRK|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/1: Topic _confluent-monitoring [0]: joining broker (rktp 0x7f62a8002dd0, 0 message(s) queued)
+%7|1573210536.968|BRKMIGR|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:main]: Migrating topic _confluent-monitoring [1] 0x7f62a80032d0 from (none) to kafka-b.example.com:9092/2 (sending PARTITION_JOIN to kafka-b.example.com:9092/2)
+%7|1573210536.968|FETCHADD|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/1: Added _confluent-monitoring [0] to active list (1 entries, opv 0, 0 messages queued)
+%7|1573210536.968|BROADCAST|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-a.example.com:9092/bootstrap]: Broadcasting state change
+%7|1573210536.968|METADATA|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:main]:   Topic _confluent-monitoring partition 2 Leader 3
+%7|1573210536.968|TOPBRK|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Topic _confluent-monitoring [1]: joining broker (rktp 0x7f62a80032d0, 0 message(s) queued)
+%7|1573210536.968|BRKDELGT|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:main]: _confluent-monitoring [2]: delegate to broker kafka-c.example.com:9092/3 (rktp 0x7f62a80037d0, term 0, ref 2, remove 0)
+%7|1573210536.968|FETCHADD|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Added _confluent-monitoring [1] to active list (1 entries, opv 0, 0 messages queued)
+%7|1573210536.968|BRKDELGT|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:main]: _confluent-monitoring [2]: broker kafka-c.example.com:9092/3 is now leader for partition with 0 messages (0 bytes) queued
+%7|1573210536.968|BROADCAST|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: Broadcasting state change
+%7|1573210536.968|BRKMIGR|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:main]: Migrating topic _confluent-monitoring [2] 0x7f62a80037d0 from (none) to kafka-c.example.com:9092/3 (sending PARTITION_JOIN to kafka-c.example.com:9092/3)
+%7|1573210536.968|PARTCNT|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:main]: Partitioning 0 unassigned messages in topic _confluent-monitoring to 3 partitions
+%7|1573210536.968|TOPBRK|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-c.example.com:9092/3]: kafka-c.example.com:9092/3: Topic _confluent-monitoring [2]: joining broker (rktp 0x7f62a80037d0, 0 message(s) queued)
+%7|1573210536.968|UAS|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:main]: 0/0 messages were partitioned in topic _confluent-monitoring
+%7|1573210536.968|FETCHADD|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-c.example.com:9092/3]: kafka-c.example.com:9092/3: Added _confluent-monitoring [2] to active list (1 entries, opv 0, 0 messages queued)
+%7|1573210536.968|BROADCAST|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-c.example.com:9092/3]: Broadcasting state change
+%7|1573210536.968|METADATA|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:main]: kafka-a.example.com:9092/1: 1/1 requested topic(s) seen in metadata
+%7|1573210536.968|CLUSTERID|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:main]: kafka-a.example.com:9092/1: ClusterId update "" -> "Ovazq1osT1iwSk_BSmAKZQ"
+%7|1573210536.968|CONTROLLERID|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:main]: kafka-a.example.com:9092/1: ControllerId update -1 -> 1
+%7|1573210536.968|BROADCAST|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:main]: Broadcasting state change
+%7|1573210536.968|RECV|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/1: Received MetadataResponse (v2, 203 bytes, CorrId 3, rtt 0.71ms)
+%7|1573210536.968|METADATA|rdkafka#producer-2| [thrd:main]: kafka-a.example.com:9092/1: ===== Received metadata (for 1 requested topics): leader query =====
+%7|1573210536.968|METADATA|rdkafka#producer-2| [thrd:main]: kafka-a.example.com:9092/1: ClusterId: Ovazq1osT1iwSk_BSmAKZQ, ControllerId: 1
+%7|1573210536.968|METADATA|rdkafka#producer-2| [thrd:main]: kafka-a.example.com:9092/1: 3 brokers, 1 topics
+%7|1573210536.968|METADATA|rdkafka#producer-2| [thrd:main]: kafka-a.example.com:9092/1:   Broker #0/3: kafka-b.example.com:9092 NodeId 2
+%7|1573210536.968|METADATA|rdkafka#producer-2| [thrd:main]: kafka-a.example.com:9092/1:   Broker #1/3: kafka-a.example.com:9092 NodeId 1
+%7|1573210536.968|METADATA|rdkafka#producer-2| [thrd:main]: kafka-a.example.com:9092/1:   Broker #2/3: kafka-c.example.com:9092 NodeId 3
+%7|1573210536.968|METADATA|rdkafka#producer-2| [thrd:main]: kafka-a.example.com:9092/1:   Topic #0/1: test-rb with 2 partitions
+%7|1573210536.968|STATE|rdkafka#producer-2| [thrd:main]: Topic test-rb changed state unknown -> exists
+%7|1573210536.968|PARTCNT|rdkafka#producer-2| [thrd:main]: Topic test-rb partition count changed from 0 to 2
+%7|1573210536.968|TOPPARNEW|rdkafka#producer-2| [thrd:main]: NEW test-rb [0] 0x7f62b0002f50 (at rd_kafka_topic_partition_cnt_update:620)
+%7|1573210536.968|TOPPARNEW|rdkafka#producer-2| [thrd:main]: NEW test-rb [1] 0x7f62b0003450 (at rd_kafka_topic_partition_cnt_update:620)
+%7|1573210536.968|METADATA|rdkafka#producer-2| [thrd:main]:   Topic test-rb partition 0 Leader 1
+%7|1573210536.968|BRKDELGT|rdkafka#producer-2| [thrd:main]: test-rb [0]: delegate to broker kafka-a.example.com:9092/1 (rktp 0x7f62b0002f50, term 0, ref 2, remove 0)
+%7|1573210536.968|BRKDELGT|rdkafka#producer-2| [thrd:main]: test-rb [0]: broker kafka-a.example.com:9092/1 is now leader for partition with 0 messages (0 bytes) queued
+%7|1573210536.968|BRKMIGR|rdkafka#producer-2| [thrd:main]: Migrating topic test-rb [0] 0x7f62b0002f50 from (none) to kafka-a.example.com:9092/1 (sending PARTITION_JOIN to kafka-a.example.com:9092/1)
+%7|1573210536.968|METADATA|rdkafka#producer-2| [thrd:main]:   Topic test-rb partition 1 Leader 2
+%7|1573210536.968|BRKDELGT|rdkafka#producer-2| [thrd:main]: test-rb [1]: delegate to broker kafka-b.example.com:9092/2 (rktp 0x7f62b0003450, term 0, ref 2, remove 0)
+%7|1573210536.968|BRKDELGT|rdkafka#producer-2| [thrd:main]: test-rb [1]: broker kafka-b.example.com:9092/2 is now leader for partition with 0 messages (0 bytes) queued
+%7|1573210536.968|BRKMIGR|rdkafka#producer-2| [thrd:main]: Migrating topic test-rb [1] 0x7f62b0003450 from (none) to kafka-b.example.com:9092/2 (sending PARTITION_JOIN to kafka-b.example.com:9092/2)
+%7|1573210536.968|TOPBRK|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/1: Topic test-rb [0]: joining broker (rktp 0x7f62b0002f50, 0 message(s) queued)
+%7|1573210536.968|PARTCNT|rdkafka#producer-2| [thrd:main]: Partitioning 1 unassigned messages in topic test-rb to 2 partitions
+%7|1573210536.968|FETCHADD|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: kafka-a.example.com:9092/1: Added test-rb [0] to active list (1 entries, opv 0, 0 messages queued)
+%7|1573210536.968|TOPBRK|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Topic test-rb [1]: joining broker (rktp 0x7f62b0003450, 0 message(s) queued)
+%7|1573210536.968|BROADCAST|rdkafka#producer-2| [thrd:kafka-a.example.com:9092/bootstrap]: Broadcasting state change
+%7|1573210536.968|FETCHADD|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Added test-rb [1] to active list (1 entries, opv 0, 0 messages queued)
+%7|1573210536.968|BROADCAST|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: Broadcasting state change
+%7|1573210536.968|UAS|rdkafka#producer-2| [thrd:main]: 1/1 messages were partitioned in topic test-rb
+%7|1573210536.968|METADATA|rdkafka#producer-2| [thrd:main]: kafka-a.example.com:9092/1: 1/1 requested topic(s) seen in metadata
+%7|1573210536.968|TOPPAR|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: test-rb [1] 1 message(s) in xmit queue (1 added from partition queue)
+%7|1573210536.968|TOPPAR|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: test-rb [1] 1 message(s) queued but broker not up
+%7|1573210536.968|STATE|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Broker changed state INIT -> TRY_CONNECT
+%7|1573210536.968|BROADCAST|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: Broadcasting state change
+%7|1573210536.968|CONNECT|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: broker in state TRY_CONNECT connecting
+%7|1573210536.968|STATE|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Broker changed state TRY_CONNECT -> CONNECT
+%7|1573210536.968|BROADCAST|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: Broadcasting state change
+%7|1573210536.969|CONNECT|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Connecting to ipv4#10.42.9.54:9092 (plaintext) with socket 21
+%7|1573210536.969|TOPPAR|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: test-rb [1] 1 message(s) in xmit queue (0 added from partition queue)
+%7|1573210536.969|TOPPAR|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: test-rb [1] 1 message(s) queued but broker not up
+%7|1573210536.969|TOPPAR|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: test-rb [1] 1 message(s) in xmit queue (0 added from partition queue)
+%7|1573210536.969|TOPPAR|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: test-rb [1] 1 message(s) queued but broker not up
+%7|1573210536.970|CONNECT|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Connected to ipv4#10.42.9.54:9092
+%7|1573210536.970|CONNECTED|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Connected (#1)
+%7|1573210536.970|FEATURE|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Updated enabled protocol features +ApiVersion to ApiVersion
+%7|1573210536.970|STATE|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Broker changed state CONNECT -> APIVERSION_QUERY
+%7|1573210536.970|BROADCAST|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: Broadcasting state change
+%7|1573210536.970|SEND|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Sent ApiVersionRequest (v0, 25 bytes @ 0, CorrId 1)
+%7|1573210536.970|TOPPAR|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: test-rb [1] 1 message(s) in xmit queue (0 added from partition queue)
+%7|1573210536.970|TOPPAR|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: test-rb [1] 1 message(s) queued but broker not up
+%7|1573210536.971|RECV|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Received ApiVersionResponse (v0, 264 bytes, CorrId 1, rtt 0.85ms)
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Broker API support:
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey Produce (0) Versions 0..5
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey Fetch (1) Versions 0..7
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey Offset (2) Versions 0..2
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey Metadata (3) Versions 0..5
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey LeaderAndIsr (4) Versions 0..1
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey StopReplica (5) Versions 0..0
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey UpdateMetadata (6) Versions 0..4
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey ControlledShutdown (7) Versions 0..1
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey OffsetCommit (8) Versions 0..3
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey OffsetFetch (9) Versions 0..3
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey GroupCoordinator (10) Versions 0..1
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey JoinGroup (11) Versions 0..2
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey Heartbeat (12) Versions 0..1
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey LeaveGroup (13) Versions 0..1
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey SyncGroup (14) Versions 0..1
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey DescribeGroups (15) Versions 0..1
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey ListGroups (16) Versions 0..1
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey SaslHandshake (17) Versions 0..1
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey ApiVersion (18) Versions 0..1
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey CreateTopics (19) Versions 0..2
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey DeleteTopics (20) Versions 0..1
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey DeleteRecords (21) Versions 0..0
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey InitProducerId (22) Versions 0..0
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey OffsetForLeaderEpoch (23) Versions 0..0
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey AddPartitionsToTxn (24) Versions 0..0
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey AddOffsetsToTxn (25) Versions 0..0
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey EndTxn (26) Versions 0..0
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey WriteTxnMarkers (27) Versions 0..0
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey TxnOffsetCommit (28) Versions 0..0
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey DescribeAcls (29) Versions 0..0
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey CreateAcls (30) Versions 0..0
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey DeleteAcls (31) Versions 0..0
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey DescribeConfigs (32) Versions 0..1
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey AlterConfigs (33) Versions 0..0
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey AlterReplicaLogDirs (34) Versions 0..0
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey DescribeLogDirs (35) Versions 0..0
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey SaslAuthenticate (36) Versions 0..0
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey CreatePartitions (37) Versions 0..0
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey CreateDelegationToken (38) Versions 0..0
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey RenewDelegationToken (39) Versions 0..0
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey ExpireDelegationToken (40) Versions 0..0
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey DescribeDelegationToken (41) Versions 0..0
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey DeleteGroups (42) Versions 0..0
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature MsgVer1: Produce (2..2) supported by broker
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature MsgVer1: Fetch (2..2) supported by broker
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Enabling feature MsgVer1
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature MsgVer2: Produce (3..3) supported by broker
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature MsgVer2: Fetch (4..4) supported by broker
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Enabling feature MsgVer2
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature ApiVersion: ApiVersion (0..0) supported by broker
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Enabling feature ApiVersion
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature BrokerGroupCoordinator: GroupCoordinator (0..0) supported by broker
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Enabling feature BrokerGroupCoordinator
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature BrokerBalancedConsumer: GroupCoordinator (0..0) supported by broker
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature BrokerBalancedConsumer: OffsetCommit (1..2) supported by broker
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature BrokerBalancedConsumer: OffsetFetch (1..1) supported by broker
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature BrokerBalancedConsumer: JoinGroup (0..0) supported by broker
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature BrokerBalancedConsumer: SyncGroup (0..0) supported by broker
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature BrokerBalancedConsumer: Heartbeat (0..0) supported by broker
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature BrokerBalancedConsumer: LeaveGroup (0..0) supported by broker
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Enabling feature BrokerBalancedConsumer
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature ThrottleTime: Produce (1..2) supported by broker
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature ThrottleTime: Fetch (1..2) supported by broker
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Enabling feature ThrottleTime
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature Sasl: JoinGroup (0..0) supported by broker
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Enabling feature Sasl
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature SaslHandshake: SaslHandshake (0..0) supported by broker
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Enabling feature SaslHandshake
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature LZ4: GroupCoordinator (0..0) supported by broker
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Enabling feature LZ4
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature OffsetTime: Offset (1..1) supported by broker
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Enabling feature OffsetTime
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature IdempotentProducer: InitProducerId (0..0) supported by broker
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Enabling feature IdempotentProducer
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature ZSTD: Produce (7..7) NOT supported by broker
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature ZSTD: Fetch (10..10) NOT supported by broker
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Disabling feature ZSTD
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature UnitTest: SaslHandshake (1..1) supported by broker
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature UnitTest: SaslAuthenticate (0..0) supported by broker
+%7|1573210536.971|APIVERSION|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Enabling feature UnitTest
+%7|1573210536.971|FEATURE|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Updated enabled protocol features to MsgVer1,ApiVersion,BrokerBalancedConsumer,ThrottleTime,Sasl,SaslHandshake,BrokerGroupCoordinator,LZ4,OffsetTime,MsgVer2,IdempotentProducer,UnitTest
+%7|1573210536.971|STATE|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Broker changed state APIVERSION_QUERY -> UP
+%7|1573210536.971|BROADCAST|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: Broadcasting state change
+%7|1573210536.971|METADATA|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: Skipping metadata refresh of 1 topic(s): connected: already being requested
+%7|1573210536.971|TOPPAR|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: test-rb [1] 1 message(s) in xmit queue (0 added from partition queue)
+%7|1573210536.971|PRODUCE|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: test-rb [1]: Produce MessageSet with 1 message(s) (108 bytes, ApiVersion 5, MsgVersion 2, MsgId 0, BaseSeq -1, PID{Invalid})
+%7|1573210536.971|SEND|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Sent ProduceRequest (v5, 162 bytes @ 0, CorrId 2)
+%7|1573210536.972|RECV|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Received ProduceResponse (v5, 51 bytes, CorrId 2, rtt 1.23ms)
+%7|1573210536.972|MSGSET|rdkafka#producer-2| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: test-rb [1]: MessageSet with 1 message(s) (MsgId 0, BaseSeq -1) delivered
+%7|1573210536.972|DESTROY|rdkafka#producer-2| [thrd:app]: Terminating instance (destroy flags none (0x0))
+%7|1573210536.972|TERMINATE|rdkafka#producer-2| [thrd:app]: Interrupting timers
+%7|1573210536.972|TERMINATE|rdkafka#producer-2| [thrd:app]: Sending TERMINATE to internal main thread
+%7|1573210536.972|TERMINATE|rdkafka#producer-2| [thrd:app]: Joining internal main thread
+%7|1573210536.972|TERMINATE|rdkafka#producer-2| [thrd:main]: Internal main thread terminating
+%7|1573210536.972|DESTROY|rdkafka#producer-2| [thrd:main]: Destroy internal
+%7|1573210536.972|BROADCAST|rdkafka#producer-2| [thrd:main]: Broadcasting state change
+%7|1573210536.972|TOPPAR|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: _confluent-monitoring [1] 1 message(s) in xmit queue (1 added from partition queue)
+%7|1573210536.972|TOPPAR|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: _confluent-monitoring [1] 1 message(s) queued but broker not up
+%7|1573210536.972|STATE|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Broker changed state INIT -> TRY_CONNECT
+%7|1573210536.972|BROADCAST|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: Broadcasting state change
+%7|1573210536.972|CONNECT|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: broker in state TRY_CONNECT connecting
+%7|1573210536.972|STATE|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Broker changed state TRY_CONNECT -> CONNECT
+%7|1573210536.972|BROADCAST|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: Broadcasting state change
+%7|1573210536.973|CONNECT|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Connecting to ipv4#10.42.9.54:9092 (plaintext) with socket 22
+%7|1573210536.973|TOPPAR|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: _confluent-monitoring [1] 1 message(s) in xmit queue (0 added from partition queue)
+%7|1573210536.973|TOPPAR|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: _confluent-monitoring [1] 1 message(s) queued but broker not up
+%7|1573210536.973|TOPPAR|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: _confluent-monitoring [1] 1 message(s) in xmit queue (0 added from partition queue)
+%7|1573210536.973|TOPPAR|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: _confluent-monitoring [1] 1 message(s) queued but broker not up
+%7|1573210536.973|CONNECT|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Connected to ipv4#10.42.9.54:9092
+%7|1573210536.973|CONNECTED|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Connected (#1)
+%7|1573210536.973|FEATURE|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Updated enabled protocol features +ApiVersion to ApiVersion
+%7|1573210536.973|STATE|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Broker changed state CONNECT -> APIVERSION_QUERY
+%7|1573210536.973|BROADCAST|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: Broadcasting state change
+%7|1573210536.973|SEND|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Sent ApiVersionRequest (v0, 58 bytes @ 0, CorrId 1)
+%7|1573210536.973|TOPPAR|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: _confluent-monitoring [1] 1 message(s) in xmit queue (0 added from partition queue)
+%7|1573210536.973|TOPPAR|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: _confluent-monitoring [1] 1 message(s) queued but broker not up
+%7|1573210536.975|RECV|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Received ApiVersionResponse (v0, 264 bytes, CorrId 1, rtt 1.18ms)
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Broker API support:
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey Produce (0) Versions 0..5
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey Fetch (1) Versions 0..7
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey Offset (2) Versions 0..2
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey Metadata (3) Versions 0..5
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey LeaderAndIsr (4) Versions 0..1
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey StopReplica (5) Versions 0..0
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey UpdateMetadata (6) Versions 0..4
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey ControlledShutdown (7) Versions 0..1
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey OffsetCommit (8) Versions 0..3
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey OffsetFetch (9) Versions 0..3
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey GroupCoordinator (10) Versions 0..1
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey JoinGroup (11) Versions 0..2
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey Heartbeat (12) Versions 0..1
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey LeaveGroup (13) Versions 0..1
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey SyncGroup (14) Versions 0..1
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey DescribeGroups (15) Versions 0..1
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey ListGroups (16) Versions 0..1
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey SaslHandshake (17) Versions 0..1
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey ApiVersion (18) Versions 0..1
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey CreateTopics (19) Versions 0..2
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey DeleteTopics (20) Versions 0..1
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey DeleteRecords (21) Versions 0..0
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey InitProducerId (22) Versions 0..0
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey OffsetForLeaderEpoch (23) Versions 0..0
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey AddPartitionsToTxn (24) Versions 0..0
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey AddOffsetsToTxn (25) Versions 0..0
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey EndTxn (26) Versions 0..0
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey WriteTxnMarkers (27) Versions 0..0
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey TxnOffsetCommit (28) Versions 0..0
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey DescribeAcls (29) Versions 0..0
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey CreateAcls (30) Versions 0..0
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey DeleteAcls (31) Versions 0..0
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey DescribeConfigs (32) Versions 0..1
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey AlterConfigs (33) Versions 0..0
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey AlterReplicaLogDirs (34) Versions 0..0
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey DescribeLogDirs (35) Versions 0..0
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey SaslAuthenticate (36) Versions 0..0
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey CreatePartitions (37) Versions 0..0
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey CreateDelegationToken (38) Versions 0..0
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey RenewDelegationToken (39) Versions 0..0
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey ExpireDelegationToken (40) Versions 0..0
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey DescribeDelegationToken (41) Versions 0..0
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:   ApiKey DeleteGroups (42) Versions 0..0
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature MsgVer1: Produce (2..2) supported by broker
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature MsgVer1: Fetch (2..2) supported by broker
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Enabling feature MsgVer1
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature MsgVer2: Produce (3..3) supported by broker
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature MsgVer2: Fetch (4..4) supported by broker
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Enabling feature MsgVer2
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature ApiVersion: ApiVersion (0..0) supported by broker
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Enabling feature ApiVersion
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature BrokerGroupCoordinator: GroupCoordinator (0..0) supported by broker
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Enabling feature BrokerGroupCoordinator
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature BrokerBalancedConsumer: GroupCoordinator (0..0) supported by broker
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature BrokerBalancedConsumer: OffsetCommit (1..2) supported by broker
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature BrokerBalancedConsumer: OffsetFetch (1..1) supported by broker
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature BrokerBalancedConsumer: JoinGroup (0..0) supported by broker
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature BrokerBalancedConsumer: SyncGroup (0..0) supported by broker
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature BrokerBalancedConsumer: Heartbeat (0..0) supported by broker
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature BrokerBalancedConsumer: LeaveGroup (0..0) supported by broker
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Enabling feature BrokerBalancedConsumer
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature ThrottleTime: Produce (1..2) supported by broker
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature ThrottleTime: Fetch (1..2) supported by broker
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Enabling feature ThrottleTime
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature Sasl: JoinGroup (0..0) supported by broker
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Enabling feature Sasl
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature SaslHandshake: SaslHandshake (0..0) supported by broker
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Enabling feature SaslHandshake
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature LZ4: GroupCoordinator (0..0) supported by broker
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Enabling feature LZ4
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature OffsetTime: Offset (1..1) supported by broker
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Enabling feature OffsetTime
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature IdempotentProducer: InitProducerId (0..0) supported by broker
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Enabling feature IdempotentProducer
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature ZSTD: Produce (7..7) NOT supported by broker
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature ZSTD: Fetch (10..10) NOT supported by broker
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Disabling feature ZSTD
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature UnitTest: SaslHandshake (1..1) supported by broker
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2:  Feature UnitTest: SaslAuthenticate (0..0) supported by broker
+%7|1573210536.975|APIVERSION|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Enabling feature UnitTest
+%7|1573210536.975|FEATURE|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Updated enabled protocol features to MsgVer1,ApiVersion,BrokerBalancedConsumer,ThrottleTime,Sasl,SaslHandshake,BrokerGroupCoordinator,LZ4,OffsetTime,MsgVer2,IdempotentProducer,UnitTest
+%7|1573210536.975|STATE|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Broker changed state APIVERSION_QUERY -> UP
+%7|1573210536.975|BROADCAST|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: Broadcasting state change
+%7|1573210536.975|METADATA|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: Skipping metadata refresh of 1 topic(s): connected: already being requested
+%7|1573210536.975|TOPPAR|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: _confluent-monitoring [1] 1 message(s) in xmit queue (0 added from partition queue)
+%7|1573210537.073|TOPPAR|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: _confluent-monitoring [1] 1 message(s) in xmit queue (0 added from partition queue)
+%7|1573210537.073|PRODUCE|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: _confluent-monitoring [1]: Produce MessageSet with 1 message(s) (183 bytes, ApiVersion 5, MsgVersion 2, MsgId 0, BaseSeq -1, PID{Invalid})
+%7|1573210537.073|SEND|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Sent ProduceRequest (v5, 284 bytes @ 0, CorrId 2)
+%7|1573210537.078|RECV|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: Received ProduceResponse (v5, 65 bytes, CorrId 2, rtt 4.97ms)
+%7|1573210537.078|MSGSET|confluent.monitoring.interceptor.rdkafka#producer-1| [thrd:kafka-b.example.com:9092/2]: kafka-b.example.com:9092/2: _confluent-monitoring [1]: MessageSet with 1 message(s) (MsgId 0, BaseSeq -1) delivered
+signal: segmentation fault (core dumped)
